@@ -19,7 +19,7 @@ def option_three_action():
     num_result = num1*num2
     print(f"Your result is {num_result}")
 
-def option_four_action()
+def option_four_action():
     """Function to execute when Option 3 is chosen."""
     print("You selected Option 4:")
     num1, num2 = map(int, input("Enter two numbers separated by a space: ").split())
