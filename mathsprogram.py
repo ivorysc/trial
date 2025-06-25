@@ -1,34 +1,34 @@
 def option_one_action():
     """Function to execute when Option 1 is chosen."""
     print("You selected Option 1:")
-    sum1, sum2 = map(int, input("Enter two numbers separated by a space: ").split())
-    sum_result = sum1 + sum2
-    print(f"Your result is {sum_result}")
+    num1, num2 = map(int, input("Enter two numbers separated by a space: ").split())
+    num_result = num1 + num2
+    print(f"Your result is {num_result}")
 
 def option_two_action():
     """Function to execute when Option 2 is chosen."""
     print("You selected Option 2:")
-    sum1, sum2 = map(int, input("Enter two numbers separated by a space: ").split())
-    sum_result = sum1 - sum2
-    print(f"Your result is {sum_result}")
+    num1, num2 = map(int, input("Enter two numbers separated by a space: ").split())
+    num_result = num1 - num2
+    print(f"Your result is {num_result}")
 
 def option_three_action():
     """Function to execute when Option 3 is chosen."""
     print("You selected Option 3:")
-    sum1, sum2 = map(int, input("Enter two numbers separated by a space: ").split())
-    sum_result = sum1*sum2
-    print(f"Your result is {sum_result}")
+    num1, num2 = map(int, input("Enter two numbers separated by a space: ").split())
+    num_result = num1*num2
+    print(f"Your result is {num_result}")
 
 def option_four_action()
     """Function to execute when Option 3 is chosen."""
     print("You selected Option 4:")
-    sum1, sum2 = map(int, input("Enter two numbers separated by a space: ").split())
-    sum_result = int(sum1/sum2)
-    remainder =  sum1%sum2
+    num1, num2 = map(int, input("Enter two numbers separated by a space: ").split())
+    num_result = int(num1/num2)
+    remainder =  num1%num2
     if remainder == 0:
-      print(f"Your result is {sum_result}")
+      print(f"Your result is {num_result}")
     else:
-      print(f"Your result is {sum_result} with a remainder of {remainder}")
+      print(f"Your result is {num_result} with a remainder of {remainder}")
 
 def display_menu():
     """Displays the menu options to the user."""
